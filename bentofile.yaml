@@ -1,0 +1,12 @@
+service: "service.py:svc"
+labels:
+  owner: Jagadeesh
+  project: Bentoml Project
+
+include:
+  - "*.py"
+
+python:
+  packages:
+    - scikit-learn
+    - pandas
